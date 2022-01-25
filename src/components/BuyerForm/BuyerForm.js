@@ -16,13 +16,10 @@ function BuyerForm() {
     })
  
     const handlerChange = (e)=>{
-         // console.log(e.target.name)
-         // console.log(e.target.value)
          setDataForm({...dataForm, 
                      [e.target.name]:e.target.value})
     }
      console.log(dataForm)
-     //pasar esto a otro componente
  
      const generarOrden = (e)=>{
          e.preventDefault()
@@ -41,7 +38,6 @@ function BuyerForm() {
          })
          
  
-         //Generar orden
  
          const db = getFirestore()
          const orderCollection = collection(db, 'orders')

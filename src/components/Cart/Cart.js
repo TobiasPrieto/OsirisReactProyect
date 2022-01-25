@@ -3,8 +3,7 @@ import {Link} from 'react-router-dom'
 import './Cart.css';
 
 
-// import {addDoc, collection, getFirestore, Timestamp} from 'firebase/firestore'
-// import { useState } from "react";
+
 
 function Cart() {
    const {cartList, borrarCarrito, borrarItem, sumarCantidades, sumarPrecios} =useCartContext() 
@@ -14,7 +13,7 @@ function Cart() {
         <div className ="container">
           <h1>Carrito de compras</h1>  
 
-            {/* este map tambien hacerlo en otro componente */}
+            
     
           {cartList.map(prod=><li key={prod.id}>{prod.nombre} - {prod.cantidad} - ${prod.precio * prod.cantidad} - 
                                                 <svg onClick={() => borrarItem(prod.id)} xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="eliminarItem" viewBox="0 0 16 16">

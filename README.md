@@ -1,4 +1,5 @@
 # OSIRIS SHOES
+https://github.com/TobiasPrieto/OSIRISJS/blob/master/images/pngosirisrecortadoredondo.png?raw=true
 PROYECTO E-COMMERCE "OSIRIS SHOES" PARA EL CURSO DE REACT EN CODERHOUSE
 
 # PROYECTO INICIADO CON "CREATE REACT APP"

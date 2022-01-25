@@ -1,7 +1,7 @@
 # OSIRIS SHOES
 PROYECTO E-COMMERCE "OSIRIS SHOES" PARA EL CURSO DE REACT EN CODERHOUSE
 
-##Se trata de la misma idea del proyecto que vengo realizando desde el curso de desarrollo web , el cual es una tienda online de zapatillas.
+Se trata de la misma idea del proyecto que vengo realizando desde el curso de desarrollo web , el cual es una tienda online de zapatillas.
 Elegi esta tematica ya que me gusta mucho el mundo del "SneakerHead" y todo lo relacionado a él.
 
 
